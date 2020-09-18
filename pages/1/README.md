@@ -8,4 +8,4 @@ original
 
 copy
 
-_TBA_
+![](./Screenshot_from_2020-09-18_05-46-07.png)

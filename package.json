@@ -1,0 +1,22 @@
+{
+  "name": "copywork",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "heroicons": "^0.4.2",
+    "next": "^9.5.3",
+    "next-svgr": "0.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "styled-jsx-plugin-postcss": "^2.0.1"
+  }
+}

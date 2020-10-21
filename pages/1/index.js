@@ -10,7 +10,7 @@ export default function Copywork1() {
   return (
     <>
       <Head>
-        <title>Copywork: Sidebar navigation</title>
+        <title>Copywork: Sidebar Navigation</title>
       </Head>
 
       <div className="h-screen antialiased bg-gray-300">

@@ -39,7 +39,7 @@ export default function Copywork2() {
   return (
     <>
       <Head>
-        <title>Copywork: Tailwind take-home project</title>
+        <title>Copywork: Tailwind Take-Home Project</title>
       </Head>
       <div className="pt-12 pb-36">
         <div className="px-4 space-y-4 divide-y divide-gray-300 sm:px-12 sm:container sm:mx-auto">

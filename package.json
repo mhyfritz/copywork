@@ -9,11 +9,11 @@
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",
     "heroicons": "^0.4.2",
-    "next": "^9.5.3",
+    "next": "^9.5.5",
     "next-svgr": "0.0.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tailwindcss": "^1.8.10"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "tailwindcss": "^1.9.5"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",

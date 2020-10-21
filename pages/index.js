@@ -33,7 +33,7 @@ export default function Index() {
                 <div className="border-2 border-gray-200 rounded-md">
                   <img
                     className="h-16 p-1 rounded-md"
-                    src="/ffd383ad0da399d48c2b048f1d0d19ef.png"
+                    src="/1/screenshot.png"
                     alt="preview"
                   />
                 </div>

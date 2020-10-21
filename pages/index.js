@@ -12,7 +12,7 @@ export default function Index() {
       </Head>
 
       <div className="container px-8 py-16 mx-auto">
-        <ol>
+        <ol className="space-y-4">
           <li>
             <div className="flex items-center py-4 pr-4 border border-gray-200 rounded-lg">
               <div className="flex items-center justify-center w-32">
@@ -56,6 +56,56 @@ export default function Index() {
                   <ExternalLinkIcon className="h-6" />
                 </a>
                 <Link href="/1">
+                  <a className="flex items-center space-x-1">
+                    <span>copy</span>
+                    <ArrowNarrowRightIcon className="h-6" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="flex items-center py-4 pr-4 border border-gray-200 rounded-lg">
+              <div className="flex items-center justify-center w-32">
+                <svg
+                  class="h-10"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#14B4C6"
+                    d="M32 16c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C35.744 29.09 38.808 32.2 45.5 32.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.514-3.522-2.004-5.147-3.653C41.756 19.11 38.692 16 32 16zM18.5 32.2C11.3 32.2 6.8 35.8 5 43c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C22.244 45.29 25.308 48.4 32 48.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.514-3.522-2.004-5.147-3.653C28.256 35.31 25.192 32.2 18.5 32.2z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <div className="border-2 border-gray-200 rounded-md">
+                  <img
+                    className="h-16 p-1 rounded-md"
+                    src="/2/screenshot.png"
+                    alt="preview"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-col flex-1 ml-6">
+                <h2 className="font-semibold text-gray-900">
+                  Tailwind take-home project
+                </h2>
+                <h3 className="text-sm text-gray-500">
+                  original by Adam Wathan
+                </h3>
+              </div>
+              <div className="flex items-center space-x-6 text-gray-700">
+                <a
+                  className="flex items-center space-x-1"
+                  href="https://github.com/adamwathan/tailwind-take-home-project"
+                  target="_blank"
+                >
+                  <span>original</span>
+                  <ExternalLinkIcon className="h-6" />
+                </a>
+                <Link href="/2">
                   <a className="flex items-center space-x-1">
                     <span>copy</span>
                     <ArrowNarrowRightIcon className="h-6" />

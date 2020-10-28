@@ -91,7 +91,7 @@ export default function Copywork3() {
                       type="button"
                       className="w-full px-2 py-4 font-semibold text-center text-white bg-purple-500 rounded-md shadow-md focus:bg-purple-600 hover:bg-purple-600"
                     >
-                      Type to create a password
+                      Sign up
                     </button>
                   </div>
                 </form>

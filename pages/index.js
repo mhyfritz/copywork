@@ -4,7 +4,7 @@ import Link from "next/link";
 import ArrowNarrowRightIcon from "heroicons/outline/arrow-narrow-right.svg";
 import ExternalLinkIcon from "heroicons/outline/external-link.svg";
 
-import LogoDribble from "@/components/logo-dribble";
+import LogoDribbble from "@/components/logo-dribbble";
 import LogoTailwindCss from "@/components/logo-tailwind-css";
 import LogoUiDesignDaily from "@/components/logo-ui-design-daily";
 
@@ -13,7 +13,7 @@ const items = [
     title: "Sidebar Navigation",
     author: "Steve Schoger",
     url: "https://dribbble.com/shots/10907005-Sidebar-navigation/",
-    site: "dribble",
+    site: "dribbble",
   },
   {
     title: "Tailwind Take-Home Project",
@@ -28,12 +28,18 @@ const items = [
       "https://uidesigndaily.com/posts/sketch-sign-up-ui-design-form-day-1206",
     site: "ui-design-daily",
   },
+  {
+    title: "Sidebar",
+    author: "James McDonald",
+    url: "https://dribbble.com/shots/10837885-",
+    site: "dribbble",
+  },
 ];
 
 function Logo({ site }) {
   switch (site) {
-    case "dribble":
-      return <LogoDribble className="h-5 fill-current" />;
+    case "dribbble":
+      return <LogoDribbble className="h-5 fill-current" />;
     case "tailwind-css":
       return <LogoTailwindCss className="h-10" />;
     case "ui-design-daily":

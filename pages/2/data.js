@@ -5,15 +5,15 @@ export const product = {
   },
   images: [
     {
-      src: "/2/img/kemper-front.jpg",
+      src: `/2/img/kemper-front.jpg`,
       alt: `Front view of Kemper Profiling Amp`,
     },
     {
-      src: "/2/img/kemper-angle.jpg",
+      src: `/2/img/kemper-angle.jpg`,
       alt: `Side view of Kemper Profiling Amp`,
     },
     {
-      src: "/2/img/kemper-rear.jpg",
+      src: `/2/img/kemper-rear.jpg`,
       alt: `Rear view of Kemper Profiling Amp`,
     },
   ],
@@ -41,7 +41,7 @@ export const product = {
             price: 0,
           },
         ],
-        meta: { layout: "row" },
+        meta: { layout: `row` },
       },
       {
         name: `Power Amp`,
@@ -57,7 +57,7 @@ export const product = {
             price: 449,
           },
         ],
-        meta: { layout: "column" },
+        meta: { layout: `column` },
       },
       {
         name: `Foot Controller`,
@@ -73,7 +73,7 @@ export const product = {
             price: 449,
           },
         ],
-        meta: { layout: "column" },
+        meta: { layout: `column` },
       },
     ],
   },
@@ -83,8 +83,9 @@ export const product = {
     { name: `Inputs`, value: `2 x 1/4”` },
     { name: `Outputs`, value: `1 x 1/4”, 2 x XLR, 2 x 1/4”` },
     { name: `MIDI I/O`, value: `In/Out/Thru` },
-    { name: `Height`, value: `14.88”` },
-    { name: `Width`, value: `6.81”` },
+    { name: `Height`, value: `8.54”` },
+    { name: `Width`, value: `14.88”` },
+    { name: `Depth`, value: `6.81”` },
     { name: `Weight`, value: `11.73 lbs` },
   ],
 };

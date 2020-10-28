@@ -10,6 +10,13 @@ module.exports = {
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
+      screens: {
+        "2xl": "1536px",
+      },
+      spacing: {
+        72: "18rem",
+        80: "20rem",
+      },
     },
   },
   variants: {},

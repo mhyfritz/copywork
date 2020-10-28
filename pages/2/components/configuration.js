@@ -40,7 +40,7 @@ function ConfigSelector({ option, isSelected, onChange }) {
           ) : null}
         </div>
         {option.price ? (
-          <div className="text-gray-900">{formatCurrency(option.price)}</div>
+          <div className="text-gray-900">+ {formatCurrency(option.price)}</div>
         ) : null}
       </div>
     </button>

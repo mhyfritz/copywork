@@ -41,7 +41,7 @@ export default function Copywork2() {
       <Head>
         <title>Copywork: Tailwind Take-Home Project</title>
       </Head>
-      <div className="pt-12 pb-36">
+      <div className="pt-12 pb-36 sm:pb-48">
         <div className="px-4 space-y-4 divide-y divide-gray-300 sm:px-12 sm:container sm:mx-auto">
           <Header headings={product.headings} />
           <main className="flex flex-col lg:flex-row lg:space-x-8">
